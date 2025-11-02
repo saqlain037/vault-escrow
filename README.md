@@ -34,7 +34,7 @@ This shows the Goblin Gold mint address and the mint tx signature:
 
 ![Goblin Gold mint transaction](screenshots/mint-tx.png)
 ![Program ID](screenshots/ProgramID.png)
-![Mint](screesnhots/MintAddress.png)
+![Mint](screenshots/MintAddress.png)
 
 #### Vault Lock
 This shows the Vault PDA, Vault ATA, and the `lock_tokens` tx:
