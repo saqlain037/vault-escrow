@@ -33,15 +33,20 @@ This shows the Goblin Gold mint address and the mint tx signature:
 `Zh1xL6vgPzV3Bfzh7SjksBA5ue4wccUM55E3vYgtXKMcjiJ1CM1kFXBssiPq3T2DphcyWbF9zGhX95Ck65tgi8e`
 
 ![Goblin Gold mint transaction](screenshots/mint-tx.png)
+![Program ID](screenshots/ProgramID.png)
+![Mint](screesnhots/mintAddress.png)
 
 #### Vault Lock
 This shows the Vault PDA, Vault ATA, and the `lock_tokens` tx:
 `2bGFFzdM8BJiKuUk1VMpDTwvF2VQNkzeYgdkqTgWfQikiPiUu65QXfVxSUbWFqVAGMbCrysZZy9TtFCshaKLZ3Js`
 
 ![Vault lock transaction](screenshots/vault-lock.png)
+![Vault lock transaction](screenshots/VaultATA.png)
 
 #### Escrow Release
 This shows `init_escrow`, the Escrow PDA, and `release_to_seller`:
 `4mUsciFGRmMYHWMM1SjntkgoPA5NqPjVSKbkXboep5SaetkjfpkrjV3x5D22Cj1V7p6eSwhKm8wAJjMEJfo7TVT6`
 
 ![Escrow release transaction](screenshots/escrow-release.png)
+![Escrow Transaction](screenshots/Escrowtxsig.png)
+![Release to Seller](screenshots/SellerATA.png)
