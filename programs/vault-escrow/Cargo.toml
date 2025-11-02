@@ -1,0 +1,32 @@
+[package]
+name = "vault-escrow"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "vault_escrow"
+crate-type = ["cdylib", "lib"]
+
+[features]
+no-entrypoint = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+default = []
+
+[dependencies]
+anchor-lang = "0.32.1"
+
+anchor-spl = { version = "0.32.1", features = [
+    "token",
+    "associated_token"
+] }
+
+[programs.devnet]
+vault_escrow = "11111111111111111111111111111111"
+# ^ placeholder for now; will update after deploy with real ID
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/saqlaingulamhusein/.config/solana/id.json"
+
+[scripts]
+test = "anchor test"

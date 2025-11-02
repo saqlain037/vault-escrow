@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                      // <- BigInt, etc.
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "lib": ["ES2022"],
+    "types": ["node"],                       // <- gives us Buffer, fs, console, crypto, etc.
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["scripts/**/*"]
+}
